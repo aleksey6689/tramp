@@ -1,0 +1,208 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3810,
+            "max" : [
+                3565
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3566,
+            "max" : [
+                111.7613754272461,
+                30.863929748535156,
+                186.45455932617188
+            ],
+            "min" : [
+                -111.7613754272461,
+                -48.41691970825195,
+                -0.00974416732788086
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3566,
+            "max" : [
+                0.999786376953125,
+                1.0,
+                0.9978637099266052
+            ],
+            "min" : [
+                -0.999786376953125,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 3566,
+            "max" : [
+                1.0,
+                0.9997162222862244,
+                -0.0,
+                1.0
+            ],
+            "min" : [
+                -0.9949904680252075,
+                -0.9996654391288757,
+                -0.8181447386741638,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 3566,
+            "max" : [
+                0.859375,
+                0.859375
+            ],
+            "min" : [
+                0.1015625,
+                0.0859375
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7620,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42792,
+            "byteOffset" : 7620,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42792,
+            "byteOffset" : 50412,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57056,
+            "byteOffset" : 93204,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28528,
+            "byteOffset" : 150260,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 178788,
+            "uri" : "tramp.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "tumpLPcolors",
+            "uri" : "tumpLPcolors.png"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "TrumpLPmat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5882353186607361,
+                    0.5882353186607361,
+                    0.5882353186607361,
+                    1.0
+                ],
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "trump_lp_model",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "trump_lp_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                -0.21930000185966492,
+                0.0,
+                -0.0
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "trump_lp_Model_fbx2014"
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Untitled_Scene",
+            "nodes" : [
+                1
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ]
+}
